@@ -11,8 +11,8 @@ class _TrueState extends State<True> {
   List price=[100,200,400,800];
   @override
   Widget build(BuildContext context) {
-    String? o = ModalRoute.of(context)!.settings.arguments as String;
-    int op=int.parse(o);
+    int op = ModalRoute.of(context)!.settings.arguments as int;
+    // int op=int.parse(o);
     return Scaffold(
       body: Center(
         child: Column(

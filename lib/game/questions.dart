@@ -47,9 +47,11 @@ class _HomeState extends State<Home> {
                   setState(() {
                     if(userList[i]==ansList[i])
                       {
-                        Navigator.pushNamed(context, "tr",arguments: i);
+                       // Navigator.pushNamed(context, "tr",arguments: i);
                         if(i<quesList.length-1){
                           i++;
+                          Navigator.pushNamed(context, "tr",arguments: i);
+
                         }
                       }
                     else
@@ -67,9 +69,12 @@ class _HomeState extends State<Home> {
                   setState(() {
                     if(userList[i]==ansList[i])
                     {
-                      Navigator.pushNamed(context, "tr",arguments: i);
+                      // Navigator.pushNamed(context, "tr",arguments: i);
                       if(i<quesList.length-1){
+
                         i++;
+                        Navigator.pushNamed(context, "tr",arguments: i);
+
                       }
                     }
                     else
@@ -92,9 +97,11 @@ class _HomeState extends State<Home> {
                   setState(() {
                     if(userList[i]==ansList[i])
                     {
-                      Navigator.pushNamed(context, "tr",arguments: i);
+                      // Navigator.pushNamed(context, "tr",arguments: i);
                       if(i<quesList.length-1){
                         i++;
+                        Navigator.pushNamed(context, "tr",arguments: i);
+
                       }
                     }
                     else
@@ -112,9 +119,11 @@ class _HomeState extends State<Home> {
                   setState(() {
                     if(userList[i]==ansList[i])
                     {
-                      Navigator.pushNamed(context, "tr",arguments: quesList[i]);
+                      // Navigator.pushNamed(context, "tr",arguments: quesList[i]);
                       if(i<quesList.length-1){
                         i++;
+                        Navigator.pushNamed(context, "tr",arguments: quesList[i]);
+
                       }
                     }
                     else
